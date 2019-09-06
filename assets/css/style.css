@@ -1,5 +1,5 @@
 section .wave {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 143px;
     bottom: 0;
