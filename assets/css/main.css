@@ -112,14 +112,14 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-		background-image: url("images/overlay.png"), linear-gradient(90deg, #d53369 0%, #daae51 100%);
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+		background-image: url("images/overlay.png"), linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+		background-repeat: repeat, no-repeat, no-repeat;
+		background-size: 100px 100px, cover, cover;
+		background-position: top left, center center, bottom center;
+		background-attachment: fixed, fixed, fixed;
 	}
 
 		body:after {
@@ -133,11 +133,10 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-			background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-			background-image: url("images/overlay.png"), linear-gradient(90deg, #d53369 0%, #daae51 100%);
-
+			background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+			background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+			background-image: url("images/overlay.png"), linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
@@ -198,7 +197,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #f5576c;
 		}
 
 	strong, b {
@@ -782,7 +781,7 @@
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #f5576c, -1.25px 0px 0px #f5576c, 0px 1.25px 0px #f5576c, 0px -1.25px 0px #f5576c;
 				}
 
 				ul.icons li a:before {
@@ -798,7 +797,7 @@
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #f5576c;
 				}
 
 		@media screen and (max-width: 480px) {
@@ -843,8 +842,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #f5576c;
+			color: #f5576c !important;
 		}
 
 		input[type="submit"].icon,
